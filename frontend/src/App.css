@@ -1,0 +1,31 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Wrap content in a full-height section */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;   /* horizontally */
+  align-items: flex-start;   /* vertically start, or use center for perfect center */
+  padding-top: 3rem;         /* spacing below navbar */
+  width: 100%;
+}
+
+/* Upload form styling */
+.upload-form {
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

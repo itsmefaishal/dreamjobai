@@ -1,0 +1,55 @@
+.homepage-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #f3f4f6;
+}
+
+.homepage-content {
+  flex: 1;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.homepage-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.homepage-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.homepage-image {
+  flex: 1;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.homepage-image img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.homepage-info {
+  padding: 3rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.homepage-info h2 {
+  margin: 2rem 0 1rem;
+}
+
+.homepage-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.homepage-info ul li {
+  margin: 0.5rem 0;
+}

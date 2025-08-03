@@ -1,0 +1,38 @@
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: 80vh;
+  background: #f0f4f8;
+}
+
+.upload-form {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.upload-form h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.upload-form input[type="file"],
+.upload-form textarea {
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.upload-form textarea {
+  min-height: 120px;
+}

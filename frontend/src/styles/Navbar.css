@@ -1,0 +1,50 @@
+.navbar {
+  margin: 0;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* Hamburger visibility control */
+.hamburger-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Media queries */
+.desktop-only {
+  display: flex;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+}
